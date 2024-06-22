@@ -1,0 +1,25 @@
+
+.memory-container1 {
+    margin-top: 15px;
+    background-color: azure;
+    border: 2px solid red;
+    padding: 3px;
+    display: flex;
+    flex-wrap: wrap; 
+    flex-grow: 0; 
+    flex-shrink: 0; 
+    justify-content: flex-start;
+    max-width: 1046px;
+    background-color: rgb(207, 248, 248);
+    
+}
+
+.memory-slot {
+    border: 2px solid black;
+    margin: 5px; 
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+}

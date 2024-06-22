@@ -1,0 +1,72 @@
+.main2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+}
+
+.Inputuser {
+    margin: 15px;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+
+.Inputuser input[type="text"] {
+    padding: 10px;
+    font-size: 16px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+}
+
+.Inputuser button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+.Inputuser button:hover {
+    background-color: #0056b3;
+}
+
+.memory-container { 
+    margin-top: 15px;
+    background-color: rgb(207, 248, 248);
+    border: 2px solid red;
+    padding: 3px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center; 
+  }
+  
+.memory-slot {
+    border: 3px solid black;
+    margin: 5px;
+    padding: 0 2px; 
+    height: 102px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+  }
+
+  .text1 {
+    text-align: center;
+    font-weight: bolder;
+    color: #000000;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 25px;
+    border: 3px solid black;
+    padding: 10px;
+    background-color: aquamarine;
+
+  }
+
+  
